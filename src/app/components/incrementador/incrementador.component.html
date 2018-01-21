@@ -1,0 +1,14 @@
+{{ leyenda }}
+<div class="input-group">
+  <span class="input-group-btn">
+    <button class="btn btn-primary" type="button">
+      <i class="mdi mdi-minus" (click)="cambiarValor(-5)"></i>
+    </button>
+  </span>
+  <input type="text" class="form-control" name="progreso" [(ngModel)]="porcentaje">
+  <span class="input-group-btn">
+    <button class="btn btn-primary" type="button">
+      <i class="mdi mdi-plus" (click)="cambiarValor(5)"></i>
+    </button>
+  </span>
+</div>
